@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>car card - {{data[0]}} {{data[1]}}</title>
+{% endblock %}
+
+{% block body %}
+    <div class="card">
+        <img src="{{data[8]}}" alt="car_img" class="picture">
+        <div class="stats">
+            <p class="name">🚗 ime: {{data[0]}} {{data[1]}}</p> 
+            <p class="year">📆 godište: {{data[3]}}</p>
+            <p class="engine">🚀 motor:</p>
+            <p class="cm3">{{data[4]}}cm<sup>3</sup></p>
+            <p class="bhp">{{data[6]}}</p>
+            <p class="fuel">{{data[7]}}</p>
+            <p class="km">📏 kilometraža: {{data[5]}}</p>
+            {% if data[2] == 'Dogovor' %}
+            <p class="price">💰 cena: {{data[2]}}</p>
+            {% else %}
+            <p class="price">💰 cena: €{{data[2]}}</p>
+            {% endif %}
+        </div>
+    </div>
+{% endblock %}
