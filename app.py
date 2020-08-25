@@ -9,7 +9,7 @@ def home():
     if request.method == "POST":
         url = request.form["url"]
 
-        if ("mojauto.rs" not in url) or (url.split('/')[3] != "polovni-automobili"):
+        if ("mojauto.rs" not in url) or (url.split('/')[3] != "polovni-automobili"): ######
             return render_template("error_not_a_car.html") # basic url validity check
 
         return render_template("index.html", data=scrape(url))
