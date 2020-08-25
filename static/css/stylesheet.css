@@ -95,3 +95,25 @@ p {
 .name, .year, .fuel, .km {
     margin-bottom: 1.2em;
 }
+
+@media (max-width: 768px) {
+    .search-box {
+        width: 300px;
+    }
+}
+
+@media (max-width: 1086px) {
+    .not-car {
+        width: 40%;
+    }
+}
+
+@media (max-width: 550px) {
+    .card {
+        width: 350px;
+    }
+    
+    .icon {
+        display: none;
+    }
+}  
