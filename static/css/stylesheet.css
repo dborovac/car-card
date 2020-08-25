@@ -7,7 +7,7 @@
 }
 
 body {
-    background-image: url('img/background.svg');
+    background-image: url('../img/background1.svg');
     background-attachment: fixed;
     background-size: cover;
 }
@@ -40,20 +40,33 @@ p {
     color: white;
 }
 
+.icon:visited {
+    color: black;
+}
+
+.fa-github {
+    position: absolute;
+    top: 45%;
+    left: 10px;
+}
+
+.fa-github:hover {
+    color: #E43F5A;
+}
+
 .card {
     background-color: #162447;
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 400px;
-    margin: 3em auto;
-    box-shadow: 10px 10px 5px black;
+    margin: 2em auto;
 }
 
 .not-car {
     width: 15%;
     background-color: black;
-    opacity: 0.8;
+    opacity: 0.7;
     margin: 2em auto;
     border: 5px dashed #FFAA0F;
 }
@@ -76,6 +89,7 @@ p {
     margin-bottom: 3em;
     padding: 2em 3em;
     border-radius: 20%;
+    width: 60%;
 }
 
 .name, .year, .fuel, .km {

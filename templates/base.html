@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/stylesheet.css') }}">
     <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}">
+    <script src="https://kit.fontawesome.com/423ba5cb58.js" crossorigin="anonymous"></script>
     {% block head %}{% endblock %}
     <title>car card</title>
 </head>
@@ -15,6 +16,9 @@
             <input type="submit" value="go!" class="go">
         </form>
     </div>
+    <a href="https://github.com/dborovac/car-card" target="_blank" class="icon">
+        <i class="fab fa-github fa-3x"></i>
+    </a>
     {% block body %}{% endblock %}
 </body>
 </html>
