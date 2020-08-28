@@ -40,18 +40,28 @@ p {
     color: white;
 }
 
-.icon:visited {
-    color: black;
-}
-
-.fa-github {
+.icon {
     position: absolute;
     top: 45%;
     left: 10px;
 }
 
-.fa-github:hover {
+.icon:visited {
+    color: black;
+}
+
+.icon:hover {
     color: #E43F5A;
+}
+
+.colors {
+    position: absolute;
+    top: 48%;
+    left: 10px;
+}
+
+.colors:visited {
+    color: black;
 }
 
 .card {
@@ -98,7 +108,7 @@ p {
 
 @media (max-width: 768px) {
     .search-box {
-        width: 300px;
+        width: 350px;
     }
 }
 
