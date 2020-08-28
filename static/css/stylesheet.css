@@ -42,7 +42,7 @@ p {
 
 .icon {
     position: absolute;
-    top: 45%;
+    top: 42%;
     left: 10px;
 }
 
@@ -124,6 +124,10 @@ p {
     }
     
     .icon {
+        display: none;
+    }
+
+    .colors {
         display: none;
     }
 }  
