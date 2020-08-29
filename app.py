@@ -16,6 +16,10 @@ def home():
     else:
         return render_template("base.html")
 
+@app.errorhandler(404)
+def not_found(e):
+    return render_template("404.html")
+
 def scrape(link):
     data = []
     page = requests.get(link)
