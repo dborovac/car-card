@@ -1,0 +1,11 @@
+<html>
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/stylesheet.css') }}">
+</head>
+<body>
+    <div class="wrap-404">
+        <p class="msg-404">eror 404, stranica nije pronađena.</p>
+        <a href="{{url_for('home')}}" class="btn-404">nazad na početnu</a>
+    </div>
+</body>
+</html>
