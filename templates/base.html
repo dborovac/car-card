@@ -12,16 +12,17 @@
 <body>
     <div class="search">
         <form action="#" method="post"> 
-            <input type="text" name="url" class="search-box" placeholder="unesite link oglasa automobila sa sajta mojauto.rs">
+            <input type="text" name="url" class="search-box" placeholder="unesite link oglasa auta sa sajta mojauto.rs">
             <input type="submit" value="go!" class="go">
         </form>
     </div>
     <a href="https://github.com/dborovac/car-card" target="_blank" class="icon">
         <i class="fab fa-github fa-3x"></i>
     </a>
-    <a href="#" class="colors">
+    <a href="#" class="colors" onclick="changeClr()">
         <i class="fas fa-palette fa-3x"></i>
     </a>
     {% block body %}{% endblock %}
+    <script src="{{url_for('static', filename='main.js')}}"></script>
 </body>
 </html>
