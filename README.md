@@ -6,4 +6,3 @@ scrapes the page for basic information about the vehicle using BeautifulSoup and
 
 *TO-DO:*
 - English version, add other websites to scrape from
-- Implement the option to change colors of the card using the colourlovers.com API
