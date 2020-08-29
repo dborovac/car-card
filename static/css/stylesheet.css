@@ -64,6 +64,10 @@ p {
     color: black;
 }
 
+.colors:hover {
+    color: #E43F5A;
+}
+
 .card {
     background-color: #162447;
     display: flex;
@@ -94,7 +98,7 @@ p {
 
 .stats {
     background-color: #1F4068;
-    border: 2px solid;
+    border: 3px solid;
     border-color: #E43F5A;
     margin-bottom: 3em;
     padding: 2em 3em;
@@ -108,7 +112,7 @@ p {
 
 @media (max-width: 768px) {
     .search-box {
-        width: 350px;
+        width: 300px;
     }
 }
 
