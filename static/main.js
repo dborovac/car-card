@@ -6,6 +6,7 @@ var data = {
 
 function changeClr() {
         var http = new XMLHttpRequest();
+        http.setRequestHeader('Access-Control-Allow-Origin', '*');
 
         http.onreadystatechange = function() {
 	        if(http.readyState == 4 && http.status == 200) {
