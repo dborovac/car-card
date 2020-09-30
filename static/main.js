@@ -20,7 +20,8 @@ function changeClr() {
 	        }
         }
         http.open("POST", url, true);
-        http.setRequestHeader('Access-Control-Allow-Origin', '*');
+        http.setRequestHeader('Access-Control-Allow-Origin', 'https://colormind.io/api/');
+        http.setRequestHeader('Access-Control-Allow-Credentials', true);
         http.send(JSON.stringify(data));
 }
 
