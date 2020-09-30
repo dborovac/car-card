@@ -1,4 +1,4 @@
-var url = "https://colormind.io/api/";
+var url = "https://cors-anywhere.herokuapp.com/https://colormind.io/api/";
 var data = {
 	model : "default",
 	input : ["N","N","N","N","N"]
@@ -20,8 +20,6 @@ function changeClr() {
 	        }
         }
         http.open("POST", url, true);
-        http.setRequestHeader('Access-Control-Allow-Origin', 'https://colormind.io/api/');
-        http.setRequestHeader('Access-Control-Allow-Credentials', true);
         http.send(JSON.stringify(data));
 }
 
