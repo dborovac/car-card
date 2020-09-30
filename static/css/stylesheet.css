@@ -160,3 +160,13 @@ p {
         display: none;
     }
 }  
+
+@media (max-height: 830px) {
+    .icon {
+        top: 40%;
+    }
+
+    .colors {
+        top: 50%;
+    }
+}
