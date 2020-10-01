@@ -41,30 +41,24 @@ p {
 }
 
 .icon {
+    text-decoration: none;
     position: absolute;
     top: 42%;
     left: 10px;
 }
 
-.icon:visited {
-    color: black;
-}
-
-.icon:hover {
-    color: #E43F5A;
-}
-
 .colors {
+    text-decoration: none;
     position: absolute;
     top: 48%;
     left: 10px;
 }
 
-.colors:visited {
+.fa-3x {
     color: black;
 }
 
-.colors:hover {
+.fa-3x:hover {
     color: #E43F5A;
 }
 
